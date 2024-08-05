@@ -1,0 +1,54 @@
+h1
+{
+    color:darkolivegreen;
+}
+#parrafo1
+
+{
+            background-image: url('/IMG/Capturacuento.PNG');
+            background-repeat: repeat-x;
+            background-size: auto 200px; 
+            background-position: top left; 
+            height: 200px;
+            width: 200%; 
+          
+}
+.color
+{
+    color: yellowgreen;
+    text-decoration: underline;
+    text-decoration-color: yellowgreen;
+}
+
+.color2
+{
+    color: red;
+}
+
+.tamaño
+{
+    font-size: 40px;
+}
+
+.color3
+{
+    color: blue;
+}
+
+.color4
+{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+#parrafo2
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.otro
+{ text-decoration:overline underline;
+
+}

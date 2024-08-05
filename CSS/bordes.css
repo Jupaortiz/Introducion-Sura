@@ -1,0 +1,64 @@
+.parrafo1
+{
+    background-color: rgb(32, 205, 81);
+    width: 200px;
+    height:200px;
+    border:2px solid black ;
+    /*3Valores:display:
+    1.Ancho de la linea
+    2.Tipo de border
+    3.Color del borde */
+
+}  
+.parrafo2
+{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 12px;
+    /*Padding es un espacio entre el contenido visible con respecto a su borde,
+    este valor genera un espadio adicional al ancho y al alto definido*/
+}
+
+.parrafo3
+{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 12px;
+    margin: 22px;
+}
+
+.p4
+{
+    border: 1px solid black;
+
+}
+.p5
+{
+   border-bottom: 1px solid red;
+   
+}    
+
+.p6
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+.p7
+{
+    border-left: 4px solid blue;
+    background-color: aqua;
+}
+
+.espacio
+{
+    padding: 20px;
+    width: 250px;
+    height: 30px;
+}
+ 

@@ -1,0 +1,52 @@
+/*selector unirversar*/
+*
+{
+    margin: 0;
+}
+header
+{
+    background-color:cyan;
+    text-align: center;
+}
+header img
+{
+  width: 200px; 
+}
+main .izquierda
+{
+    background-color:aquamarine;
+    width: 500px;
+    height:400px;
+    margin-top: 10px;
+    float: left;
+    
+}
+main .izquierda ul
+{
+    padding-top: 10px;
+    list-style: none;
+}
+main .izquierda ul a
+{
+    font-size: 25px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:chocolate;
+}
+main .izquierda ul a:hover /*:hover se conoce como seudoclase, el ho ver es visible cuando el ususario para el mouse sobre el elemento*/
+{
+    color:maroon;
+    font-size: 30px;
+}
+main .izquierda ul li
+{
+    margin: auto;
+}
+main .derecha
+{
+    background-color:beige;
+    width: 1000px;
+    height: 500px;
+    float: right;
+    margin-top: 10px;
+}
