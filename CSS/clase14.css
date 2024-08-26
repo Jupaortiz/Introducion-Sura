@@ -1,0 +1,53 @@
+header div
+{
+    border: 5px solid green;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+.a
+{
+    position: static;
+    
+
+}
+.b
+{
+    position: absolute;
+    top: 320px;
+    left: 320px;
+    
+}
+.c{
+    position: absolute;
+    top: 630px;
+    left: 10px;
+    
+}
+main div
+{
+    width: 500px;
+    height: 500px;
+}
+.rojo
+{
+    background-color: red;
+    position: absolute;
+    top: 970px;
+
+}
+.azul
+{
+    background-color: blue;
+    position: absolute;
+    top: 1070px;
+    left: 132px;
+}
+.verde
+{
+    background-color: green;
+    position: absolute;
+    top: 1175px;
+    left: 240px;
+}

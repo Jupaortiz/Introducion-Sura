@@ -1,0 +1,84 @@
+
+body
+{
+    width: 95%;
+    margin: auto;
+}
+h1
+{
+    margin: 10px 0 0 0;
+}
+
+header div
+{
+    display: inline-block;
+}
+
+footer div
+{
+    display: inline-block;
+}
+
+.amarillo
+{
+    background-color: yellow;
+    width: 90px;
+    height: 90px;
+    
+}
+.verde
+{
+    background-color:green;
+    width: 90px;
+    height: 90px;
+}
+.rosado
+{
+    background-color:palevioletred;
+    width: 90px;
+    height: 90px;
+}
+main
+{
+    height: 600px;
+    margin-bottom: 5px;
+}
+
+.derecha, .izquierda
+{
+    display: inline-block;
+    width: 46.1%; 
+    height: 100%;
+}
+.cajas_int
+{
+    height: 193px;
+    margin: 5px 0;
+    background-color: grey;
+    box-sizing: border-box;
+    position: relative;
+}
+.caja_blanca
+{
+    background-color: white;
+    height: 193px;
+    width: 193px;
+    position: absolute;
+}
+.caja_roja
+{
+    background-color: red;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 0;
+    right: -45px;
+}
+.movida{
+    right: 0px;
+
+}
+.cambiada
+{
+    right: 193px;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/clase15.css"
+    <title>Document</title>
+</head>
+<body>
+        <h1>Display</h1>
+        <p>
+            la propiedad display en CSS determina como se muestra un elemento en el diseño de la pagina. En el contexto de flexbox, estos valores se utilizan para establecer un contenedor como un elemnto flexible.
+            <br>
+            Ejemplo:
+        </p>
+        <div class="contenedor">
+            <div class="item">item 1</div>
+            <div class="item">item 2</div>
+            <div class="item">item 3</div>
+        </div>
+        <h1>Flex-direction: row | row-reseverse | colum | colum-revere  </h1>
+        <p>
+            la propiedad flex-direction determina la direccion en la que la elementos flexibles se colocan dentro de un contenedor flex, puede establecerse para organizar los elementos en una fila(horizontal) o una columna (vertical).
+            <br><br>
+            Esta propiedad teien 4 valores
+            <br><br>
+            <h2>Flex-direction:row</h2>
+            row: este es el valor que biene por defecto, hace que los elemntos estan en una fila horizontal, el inicio es de izquierda y el final a la derecha
+            <br><br>
+            <div class="contenedor2">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            </div>
+            <h2>flex-direction:row reverse</h2>
+            row-reverse:coloca los elementos en una fila horizontal, pero en un orden inverso al valor por defecto, El inicio estara a la derecha y el final a la izquierda.
+            <br><br>
+            <div class="contenedor3">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </div>
+            <h2>flex-direction: colum</h2>
+            colum: coloca los elemntos en una columna vertical, El inicio es arriba y el final abajo.
+            <br><br>
+            <div class="contenedor4">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </div>
+            <h2>flex-direction:colum-reverse</h2>
+            colum-reverse: coloca los elemntos en una columna vertical, pero en orden inverso al valor, quiere decir que el inicio estara abajo y al final arriba.
+            <br><br>
+            <div class="contenedor5">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </div>
+    
+        </p>
+        
+        
+        <h1>Justify-content : flex-start | flex-end | center | space-between | space-arround </h1>
+        <p>
+            la propiedad Justify-content es ka que define la justificacion horizontal de los elementos de un contenedor flexible, Esta propiedad acepta varios valores, entre ellos estan:
+            <br><br>
+            <h2>flex-start</h2>
+            flex-start: posiciona los elementos a la izquierda del contenedor (Este es el valor que viene por defecto)
+            <br><br>
+            <div class="contenedor6">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+            
+            <h2>flex-end</h2>
+            flex-end: poisicona los elementos a la derecha del contenedor
+            <br><br>
+            <div class="contenedor7">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+            <h2>center</h2>
+            center: posiciona los elementos en el centro del contenedor
+            <br><br>    
+        <div class="contenedor8">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+            <h2>space-between</h2>
+            space-between: añade un espacio identico entre los elementos del contenedor, el primer elemento esta alineado a la izquierda del contenedor, y el ultimo a la derecha
+            <br><br>
+            <div class="contenedor9">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+            <h2>space-around</h2>
+            space-arround: añade un espacio entre los elementos del contenedor, dando mas espacio entre los elementos que a sus costados.
+            <br><br>
+            <div class="contenedor10">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+        </p>
+        
+        <h1>Aling-items: strech | flex-stat | flex-end | center | baseline</h1>
+        <p>
+            Esta propiedad actua sobre el eje vertical, pero para usar la direcion del flex(fle-direcioniton) debe estar con el valor row. Esta propiedad contine 5 valores:
+            <br><br>
+            <h1>Aling-items: strech</h1>
+            strech: los elementos se amplian verticalmente para ocupar toda la altura disponible en el contenedor Este es el valor que viene por defecto.
+            <br><br>
+            <div class="contenedor11">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+
+            <h1>Aling-items: flex-start</h1>
+            flex-start: 
+            <br><br>
+            <div class="contenedor12">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div> 
+
+            <h1>Aling-items: flex-end</h1>
+            flex-end:
+            <br><br>
+            <div class="contenedor13">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+
+            <h2>Aling-items: center</h2>
+            center:
+            <br><br>
+            <div class="contenedor14">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+
+            <h2>Aling-items: baseline</h2>
+            baseline:
+            <br><br>
+            <div class="contenedor15">
+                <div class="flex-baseline">
+                    <p id="prueba">1</p></div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+
+
+        
+
+        </p>
+</body>
+</html>

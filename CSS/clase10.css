@@ -3,29 +3,35 @@
 {
     margin: 0;
 }
+
 header
 {
     background-color:cyan;
     text-align: center;
 }
+
 header img
 {
   width: 200px; 
 }
+
 main .izquierda
 {
     background-color:aquamarine;
-    width: 500px;
+    width: 890px;
     height:400px;
     margin-top: 10px;
+    margin-right: 10px;
     float: left;
     
 }
+
 main .izquierda ul
 {
     padding-top: 10px;
     list-style: none;
 }
+
 main .izquierda ul a
 {
     font-size: 25px;
@@ -33,15 +39,18 @@ main .izquierda ul a
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:chocolate;
 }
-main .izquierda ul a:hover /*:hover se conoce como seudoclase, el ho ver es visible cuando el ususario para el mouse sobre el elemento*/
+
+main .izquierda ul a:hover /*:hover se conoce como seudoclase, el hover es visible cuando el ususario para el mouse sobre el elemento*/
 {
     color:maroon;
     font-size: 30px;
 }
+
 main .izquierda ul li
 {
     margin: auto;
 }
+
 main .derecha
 {
     background-color:beige;
@@ -49,4 +58,15 @@ main .derecha
     height: 500px;
     float: right;
     margin-top: 10px;
+}
+
+footer
+{
+    background-color:moccasin;
+    clear: both; /* limpia los espacios dejados por los anteriores elementos flotantes y envia por debajo de ellos al contenedor que le damos esta propiedad, unicamente cuando se usa float previamente*/
+}
+
+footer img
+{
+    width: 50px;
 }

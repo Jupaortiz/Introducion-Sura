@@ -1,0 +1,128 @@
+.contenedor{
+    border: 1px solid blue ;
+    background-color:  beige;
+    padding: 10px;
+    display: flex;
+}
+.item{
+    border: 1px solid rebeccapurple;
+    margin:  1px;
+    padding: 5px;
+    width: 200px;
+    background-color: blueviolet;
+}.contenedor2{
+    display: flex;
+    flex-direction: row;/*Este valor viene por defecto a el dar el display flex*/
+    background-color: bisque;
+}
+.contenedor2 div, .contenedor3 div, .contenedor4 div, .contenedor5 div{
+    width: 100px;
+    height: 50px;
+    background-color: lawngreen;
+    margin: 10px;
+    text-align: center;
+
+}
+.contenedor3{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: bisque;
+}
+.contenedor4{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+.contenedor5{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: bisque;
+}
+.contenedor6 div, .contenedor7 div, .contenedor8 div, .contenedor9 div, .contenedor10 div{
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    margin: 10px;
+    text-align: center;
+}
+.contenedor6{
+    display: flex;
+    justify-content: flex-start;/*Este es el valor que viene por defecto*/
+    background-color: blanchedalmond;
+}
+.contenedor7{
+    display: flex;
+    justify-content: flex-end;
+    background-color: blanchedalmond;
+}
+.contenedor8{
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+.contenedor9{
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+.contenedor10{
+    display: flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+}
+.contenedor11 div, .contenedor12 div, .contenedor13 div, .contenedor14 div, .contenedor15 div{
+    width: 100px;
+    background-color:yellow;
+    margin: 10px;
+    text-align: center;
+}
+.contenedor11{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    align-items: stretch;
+    background-color: antiquewhite;
+}
+.contenedor12{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: antiquewhite;
+}
+.contenedor13{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: antiquewhite;
+}
+.contenedor14{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite; 
+}
+.contenedor15{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    align-items: baseline;
+    background-color: antiquewhite;
+}
+.fle-baseline{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    justify-content: center;
+    align-items: baseline;
+}
+.fle-baseline #prueba{
+    font-size: 30px;
+}

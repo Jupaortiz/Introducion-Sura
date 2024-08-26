@@ -1,0 +1,104 @@
+header
+{
+    background-color:cornsilk;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul
+{
+    list-style: none;
+    text-align: center;
+}
+nav li
+{
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+
+}
+nav a
+{
+    text-decoration: none;
+    color:brown;
+    padding: 10px;
+}
+nav a:hover
+{
+    background-color: darkgoldenrod;
+}
+/*Para usar las peopiedades top, right, left, bottom, previamente debe exitir 
+una posocion definida para usarlos(a exepcion del valor static),
+de lo contrario no se aplicaran estas propiedades*/
+.estatica
+{
+    background-color:cornsilk;
+    width: 300px;
+    height: 100px;
+    position: static;/*este valor que viene por defecto, este valor no puede moverse de su lugar*/
+    top: 20px;/*este valor no se aplica por el tipo de posicion que tiene este contenedor*/
+}
+.relativa
+{
+    background-color:cornsilk;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 50px; /*con left:50px indicamos que debemos mover el elemnto 50 px hacia la derecha, de su posicion original*/
+    top: 1px;
+}
+.tamaño
+{
+    width: 200px;
+    height: 100px;
+
+}
+.a
+{
+    background-color:red;
+    position: relative;
+    z-index: 5; ; /*el z-index se usa para sobre poner un valor sobre otro*/
+}
+.b
+{
+    background-color: blue;
+    position: relative;
+    top: -50px;/*-50px indica que debemos subir el elemneto 50 pixeles*/
+    left: 50px;/*-50px indica que debemos mover el elemneto 50 pixeles*/
+}
+.contenedor
+{
+    width: 600px;
+    height: 300px;
+    border: 5px solid black;
+}
+.contenedor2
+{
+    width: 300px;
+    height: 150px;
+    border: 5px solid salmon;
+    margin: 50px;
+    position: relative;
+}
+.elemento
+{
+    width: 50px;
+    height: 50px;/*si no exite un elemnto previo con una posicion definida se iria al principio de la pagina a la izquierda*/
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.fijo img
+{
+    width: 80px;
+    height: 80px;
+}
+.fijo
+{
+    position: fixed; /*Esta imagen se encuentra en una posicion fija dentro de la pagina,
+                     mostrandose siempre sin importar si el usuario se deslplace*/
+    bottom: 150px; 
+    right: 80px;
+}

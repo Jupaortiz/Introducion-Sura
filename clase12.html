@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/clase12.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Display, sirve para darle una orientacion a la informacion dentro de las cajas, 
+    block:
+    inline:
+    inline-block:
+    flex: elemnetos flexibles que se acomodan a el ancho y alto de manera proporcional
+    grid
+    none: aparece cuando el usuario realiza una acion sobre ellos
+    -->
+    <!--Position: permite ubicar los elemnetos en cualquier lugar, atibutos:
+    posicion-statict:
+-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Enlace 2</a></li>
+                <li><a href="">Enlace 2</a></li>
+                <li><a href="">Enlace 3</a></li>
+                <li><a href="">Enlace 4</a></li>
+                <li><a href="">Enlace 5</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+        
+           <main>
+               
+                    <h1>Posiciones con CSS</h1>
+                    <p>
+                        Para enstalbecer las posicion que los elementos de Html van a ocupar dentro del espacio de la estructura, se controlara la propiedad cde CSS position, esta nos permite controlar las distancias arriba, derecha, abajo e izquierda(<u>top,roght, left, bottom</u>) de un elemneto(contenedor), para es paropiedad exien 5 valores diferentes
+                    </p>
+                        <ol>
+                            <li>Static</li>
+                            <li>Relative</li>
+                            <li>Absolute</li>
+                            <li>Fixed</li>
+                            <li>Sticky</li>
+                        </ol>
+                        <h2>Posicion Static</h2>
+                        <p>
+                            Este es el valor por defecto de los elementos, posicionandolos con el flujo normal e la estructura, sin posibilidad de ajustar su posicion. Ej:
+                        </p>
+                            <div class="estatica">
+                                  Esta div contiene la poscion static
+                            </div>
+                        <h2>Posicion Relativ</h2>
+                        <p>
+                            Con este tipo de posicion podemos mover el contenedor de su lado original, con respecto a los 4 lados, sin embargo esta posicion no afecta a otro elemnto, de tal forma que ningun contenido se ajuste para encajar en el espacio dejado por un elemnto que tenga esta posicion
+                        </p>
+                           <div class="relativa">
+                            Esta div contiene posicion relative
+                           </div>
+                           <div class="a tamaño"></div>
+                           <div class="b tamaño"></div>
+    
+                        <h2>Posicion Absolute</h2>
+                        <p>
+                            El elemneto con este tipo de posicion se meuve aligual en sus cuatros lados, pero este cumple funciones caracteristicas distintas:
+                            <br><br>
+                            1. Cuando aplicmos esta propiedad cambiamos el flujo normal del contenido, aplicando los cuatro lados de orientacion.
+                            <br><br>
+                            2. Un vez cambiamos la posicion de un elemnto con esta propiedad, los demas elemntos  de su alrededor ocuparan el espacio dejao por este.
+                            <br><br>
+                            3. Los elementos con este tipo de posicion pueden superponerse sobre los demas elementos.
+                            <br><br>
+                            4. Si esta propiedad se aplica a un elemento sin estar por dentro de otro con distinta posicion, este se movera y buscara al contenedor mas cerano o por defecto sin mover al inicio de la pantalla
+                        </p>
+    
+                        <div class="contenedor">
+                            <div class="contenedor2">
+                                <div class="elemento">
+
+                                </div>
+                            </div>
+                        </div>
+     
+                        <h2>Posicion Fixed</h2>
+                        <p>
+                            Un elemento con esta posicion se coloca en relacion a la ventana del navegador, lo que significa que siempre permanece en el mismo luegar, incluso si se desplaza la pagina, se utilizan los cuatro lados para determinar su posicion, este valor no deja el pacio en la pagina donde originalment esta ubicado
+                        </p>
+                        
+                        <div class="fijo">
+                            <img src="/IMG/whatsapp-logo-" alt="">
+                        </div>
+
+                        <h2>Posicion Sticky</h2>
+                        <p>
+                            Un elemnto con esta posicion se ubica en funcion del desplzacamiento del usuario dentro de la pagina,se posiciona en un lugar especifico mientras que se desplaza pero siempre vuelve a su lugar original
+                        </p>
+
+           </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
