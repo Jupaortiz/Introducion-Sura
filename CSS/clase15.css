@@ -79,7 +79,7 @@
 .contenedor11{
     display: flex;
     flex-direction: row;
-    height: 200px;
+    height: 150px;
     justify-content: center;
     align-items: stretch;
     background-color: antiquewhite;
@@ -87,7 +87,7 @@
 .contenedor12{
     display: flex;
     flex-direction: row;
-    height: 200px;
+    height: 150px;
     justify-content: center;
     align-items: flex-start;
     background-color: antiquewhite;
@@ -95,7 +95,7 @@
 .contenedor13{
     display: flex;
     flex-direction: row;
-    height: 200px;
+    height: 150px;
     justify-content: center;
     align-items: flex-end;
     background-color: antiquewhite;
@@ -103,7 +103,7 @@
 .contenedor14{
     display: flex;
     flex-direction: row;
-    height: 200px;
+    height: 150px;
     justify-content: center;
     align-items: center;
     background-color: antiquewhite; 
@@ -111,7 +111,7 @@
 .contenedor15{
     display: flex;
     flex-direction: row;
-    height: 200px;
+    height: 150px;
     justify-content: center;
     align-items: baseline;
     background-color: antiquewhite;

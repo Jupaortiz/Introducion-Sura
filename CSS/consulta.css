@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    justify-content: center;  /* Alinea los elementos al centro horizontalmente */
+    align-items: center;      /* Alinea los elementos al centro verticalmente */
+    height: 50vh;            /* Ocupa toda la altura de la ventana */
+    background-color: blanchedalmond;
+  }
+  
+  .item {
+    padding: 20px;
+    background-color: lightblue;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: row; /* Cambia a 'column', 'row-reverse', o 'column-reverse' para ver los diferentes efectos */
+    background-color: beige;
+  }
+  
+  .item2 {
+    padding: 20px;
+    background-color: lightblue;
+    margin: 5px;
+  }
+  .contenedor3 {
+    display: flex;
+    flex-wrap:wrap; /* Cambia a 'nowrap' o 'wrap-reverse' para ver los diferentes efectos */
+    width: 300px;
+    background-color: antiquewhite;
+  }
+  
+  .item3, .item4, .item5, .item6 {
+    padding: 20px;
+    background-color: lightcoral;
+    margin: 5px;
+    width: 100px;
+  }
+  .contenedor4 {
+    display: flex;
+    justify-content: space-evenly; /* Cambia a 'flex-start', 'flex-end', 'center', 'space-between', o 'space-evenly' para ver diferentes efectos */
+    flex-wrap: wrap;
+    width: 300px;
+    background-color:darkgrey;
+  }
+  
+  .item7, .item8, .item9, .item10 {
+    padding: 20px;
+    background-color: lightcyan;
+    margin: 5px;
+    width: 100px;
+  }
+  .contenedor5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; /* Cambia a 'flex-start', 'flex-end', 'stretch', o 'baseline' para ver diferentes efectos */
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px; /* Añadimos altura para ver cómo se alinean los elementos en el eje transversal */
+    background-color: burlywood;
+  }
+  
+  .item11, .item12, .item13, .item14 {
+    padding: 20px;
+    background-color: lightpink;
+    margin: 5px;
+    width: 100px;
+  }
+  
+  
+  
+  

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+header .logo img{
+    width: 150px;
+}
+nav ul, .iconos ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Nerko One", cursive;
+    color: lightcoral;
+}
+.iconos img{
+    width: 80px;
+}
+div ul .carro img{
+    height: 70px;
+    width: 90px;
+}
+.portada img{
+    width: 100%;
+    height: 90%;
+}
+nav a:hover{
+    color:lightcoral;
+    border-bottom: 2px solid salmon;
+}
+/*.iconos img{
+    width: 80px;
+    filter:invert();
+}*/ /*Con esta opcion se altera el color de la imagen por si esta conbinada con el fondo*/
+
+main .anuncio{
+    
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+     
+}
+ .anuncio h1{
+    color:crimson;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:  20px;
+    text-shadow:  0px 5px 5px black;
+ }    
+.anuncio a{
+    background-color:palevioletred ;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 200px;   
+    text-align: center;     
+}
+.anuncio a:hover{
+    box-shadow:  o 5px 17px black;
+}
+.contenedorcard{
+    margin: 20px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card{
+    width: 330px;
+    height: 400px;
+    box-shadow: 0 2px 2px black;
+    text-align: center;
+    transition:  all 0.25s;
+    background-color: plum;
+}
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 15px 18px black;
+    border:  1px solid black;
+}
+.card img{
+    width: 330px;
+    height: 220px;
+    box-shadow: 1px solid black;
+}

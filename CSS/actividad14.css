@@ -1,0 +1,64 @@
+body
+{
+    width: 95%;
+    margin: auto;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: purple;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.articulos{
+    display: flex;
+       
+}
+.first, .second, .third{
+    margin: 5px;
+    background-color:cyan;
+    padding: 5px;
+    height: 300px;
+}
+main{
+    border: black solid 2px;
+}
+.izquierda{
+    display: flex;
+    justify-content: start;
+    
+}
+.uno,.dos,.tres,.cuatro{
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+  
+.derecha{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+      
+}
+.centro{
+    display: flex;
+    justify-content: space-between;
+}
+.rosa{
+    background-color: palevioletred;
+}
+.rojo{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
